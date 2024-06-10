@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../utils/page_controller.dart';
-import '../utils/responsive_screen_size.dart';
 import 'button.dart';
 
 class NavigationButtonList extends StatelessWidget {
@@ -22,17 +21,16 @@ class NavigationButtonList extends StatelessWidget {
                         curve: Curves.easeIn);
                   },
                   text: 'Home'),
-              if (!Responsive.isLargeMobile(context))
-                NavigationTextButton(
-                    onTap: () {
-                      controller.animateToPage(2,
-                          duration: const Duration(milliseconds: 500),
-                          curve: Curves.easeIn);
-                    },
-                    text: 'About'),
               NavigationTextButton(
                   onTap: () {
-                    controller.animateToPage(3,
+                    controller.animateToPage(1,
+                        duration: const Duration(milliseconds: 500),
+                        curve: Curves.easeIn);
+                  },
+                  text: 'About'),
+              NavigationTextButton(
+                  onTap: () {
+                    controller.animateToPage(2,
                         duration: const Duration(milliseconds: 500),
                         curve: Curves.easeIn);
                   },

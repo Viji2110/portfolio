@@ -42,7 +42,7 @@ class AnimatedLinearProgressIndicator extends StatelessWidget {
               LinearProgressIndicator(
                 value: value,
                 backgroundColor: Colors.black,
-                color: Colors.amberAccent,
+                color: Colors.deepPurple,
               ),
             ],
           );
@@ -66,7 +66,7 @@ class MySKills extends StatelessWidget {
           image: 'assets/images/png/flutter.png',
         ),
         AnimatedLinearProgressIndicator(
-            percentage: 0.9,
+            percentage: 0.7,
             title: 'Dart',
             image: 'assets/images/png/dart.png'),
         AnimatedLinearProgressIndicator(
@@ -78,7 +78,7 @@ class MySKills extends StatelessWidget {
             title: 'Responsive Design',
             image: 'assets/images/png/flutter.png'),
         AnimatedLinearProgressIndicator(
-            percentage: 0.9,
+            percentage: 0.89,
             title: 'Clean Architecture',
             image: 'assets/images/png/flutter.png'),
         AnimatedLinearProgressIndicator(
@@ -90,7 +90,7 @@ class MySKills extends StatelessWidget {
             title: 'Provider',
             image: 'assets/images/png/flutter.png'),
         AnimatedLinearProgressIndicator(
-            percentage: 0.93,
+            percentage: 0.78,
             title: 'Getx',
             image: 'assets/images/png/dart.png'),
       ],
